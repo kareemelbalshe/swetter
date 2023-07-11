@@ -83,10 +83,11 @@ header{
     margin-right: 10px;
 }
 .tweet-img{
-    width: 38px;
+    width: 40px;
     height: 38px;
     border-radius: 50%;
     background-color: white;
+    object-fit: contain;
 }.account-details{
     display: flex;
     flex-direction: column;
@@ -136,7 +137,7 @@ main{
     padding: 4px 16px;
 }
 .new-tweet .tweet-img{
-    width: 48px;
+    width: 55px;
     height: 48px;
     cursor: pointer;
 }
